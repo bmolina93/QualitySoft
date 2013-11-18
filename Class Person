@@ -1,0 +1,80 @@
+/*****************************************************************************************************
+ * 
+ * 
+ * Written: November 17, 2013
+ * 
+ * Course: CS 001A
+ * Team 03
+ * 
+ * File: Person.java
+ * 
+ * Stores a contact list object as a single contact per object
+ * The class provides a set method for each separate field of the contact i.e. first name, last name,
+ * address, phone number, email, and notes.
+ * 
+ * output: (in main class TestContactList.java)
+******************************************************************************************************/
+public class Person {
+	private String firstName;
+	private String lastName;
+	private String address;
+	private String phoneNumber;
+	private String email;
+	private String notes;
+	/*
+	 * Person object Constructor
+	 */
+	public Person(){
+		
+	}
+	
+	/*
+	 * Sets first name for the contact
+	 */
+	public void setFirstName(String contactFirstName){
+		
+	}
+	/*
+	 * Sets last name for the contact
+	 */
+	public void setLastName(String contactLastName){
+		
+	}
+	/*
+	 * Sets address for the contact as Street Address, City, State, and ZipCode
+	 */
+	public void setAddress(String contactAddress){
+		
+	}
+	/*
+	 * Sets phone number for the contact
+	 */
+	public void setPhoneNumber(String contactPhone){
+		
+	}
+	
+	/*
+	 * Sets email for the contact
+	 */
+	public void setEmail(String contactEmail){
+		
+	}
+	
+	/*
+	 * Sets notes for the contact
+	 */
+	public void setNotes(String contactNotes){
+		
+	}
+	
+	/*
+	 * retrieves single contact and returns a string if found
+	 * 1) If there is no one in the contact list with the given last name, the system will display a message to the user telling her that.
+	 * 2) If there is more than one person in the contact list with the given last name, then all of the people with that last name will be displayed.
+	 */
+	public String getSingleContact(String contactLastName){
+		return contactLastName;
+	}
+	
+	
+}
