@@ -76,3 +76,92 @@ Please enter the number of your choice
 
 Thank you for using QualitySoft Contact List
 
+
+***New Run***
+
+
+Welcome to QualitySoft Contact List
+
+Do you want to start a new list or open an existing list?
+
+1: Start new list
+
+2: Open existing list
+
+>2
+
+Please enter the name of the contact list file
+
+>Soccer_Club_contactlist.txt
+
+Please enter the number of your choice
+
+1: Print complete contact list
+
+2: Print information for individual contact by last name
+
+3: Add another contact to 'Soccer club' list
+
+4: Save and Quit
+
+>3
+
+Please enter last name of contact
+
+>Flintstone
+
+Please enter first name [press enter if unknown]
+
+>Fred
+
+Please enter phone number (###-###-####) [press enter if unknown]
+
+>
+
+Please enter email address [press enter if unknown]
+
+>
+
+Please enter street address [press enter if unknown]
+
+> 101 Caveway Big Mountain, CA 98734
+
+Do you wish to enter another contact? (Y/N)
+
+>N
+
+Please enter the number of your choice
+
+1: Print complete contact list
+
+2: Print information for individual contact by last name
+
+3: Add another contact to 'Soccer club' list
+
+4: Save and Quit
+
+>1
+
+David Beckham
+555-444-333
+-
+777 Mainstreet Littletown CA, 95201
+
+Fred Flintstone
+-
+-
+101 Caveway Big Mountain, CA 98734
+
+Please enter the number of your choice
+
+1: Print complete contact list
+
+2: Print information for individual contact by last name
+
+3: Add another contact to 'Soccer club' list
+
+4: Save and Quit
+
+>4
+
+Thank you for using QualitySoft Contact List
