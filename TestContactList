@@ -1,0 +1,32 @@
+/*****************************************************************************************************
+ * 
+ * 
+ * Written: November 17, 2013
+ * 
+ * Course: CS 001A
+ * Team 03
+ * 
+ * File: TestContactList.java
+ * 
+ * Main class to test Person class.
+ * Creates single contacts and stores in an Array
+ * 
+ * output:
+******************************************************************************************************/
+public class TestContactList {
+
+	public static void main(String[] args) {
+		
+		//Creating a contact list of size 10
+		Person[] contactList = new Person[10];
+		Person person = new Person();
+		
+		contactList[0] = person;
+		
+		 
+	
+		
+
+	}
+
+}
