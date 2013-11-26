@@ -1,0 +1,74 @@
+/*****************************************************************************************************
+ * 
+ * 
+ * Written: November 17, 2013
+ * by Michael Walker
+ * 
+ * Course: CS 001A
+ * Team 03
+ * 
+ * File: Person.java
+ * 
+ * One Object of this class represents a single contact information
+ * The class provides a set method for each separate field of the contact i.e. first name, last name,
+ * address, phone number, email, and notes.
+ * 
+ * output: (in main class TestContactList.java)
+******************************************************************************************************/
+public class Person implements java.io.Serializable{
+	private String firstName;
+	private String lastName;
+	private String address;
+	private String phoneNumber;
+	private String email;
+	private String notes;
+	/*
+	 * Person object Constructor
+	 */
+	public Person(){
+		
+	}
+	
+	/*
+	 * Sets first name for the contact
+	 */
+	public void setFirstName(String contactFirstName){
+		System.out.println("FirstName Called!"); //BM
+	}
+	/*
+	 * Sets last name for the contact
+	 */
+	public void setLastName(String contactLastName){
+		System.out.println("LastName Called!"); //BM
+	}
+	/*
+	 * Sets address for the contact as Street Address, City, State, and ZipCode
+	 */
+	public void setAddress(String contactAddress){
+		System.out.println("Address Called!"); //BM
+	}
+	/*
+	 * Sets phone number for the contact
+	 */
+	public void setPhoneNumber(String contactPhone){
+		System.out.println("Phone Called!"); //BM
+	}
+	/*
+	 * Sets email for the contact
+	 */
+	public void setEmail(String contactEmail){
+		System.out.println("Email Called!"); //BM
+	}
+	/*
+	 * Sets notes for the contact
+	 */
+	public void setNotes(String contactNotes){
+		
+	}
+        /*
+         * Returns contact information
+         */        
+        public String getPerson(){
+            return("getPerson called");
+        } 
+}
