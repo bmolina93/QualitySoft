@@ -2,31 +2,54 @@
  * 
  * 
  * Written: November 17, 2013
- * 
+ * by Michael Walker
  * Course: CS 001A
  * Team 03
  * 
  * File: TestContactList.java
  * 
- * Main class to test Person class.
- * Creates single contacts and stores in an Array
- * 
- * output:
+ * Main class to test Person class & ContactList class.
+ * creates a ContactList object
+ * creates a Person object
 ******************************************************************************************************/
 public class TestContactList {
 
 	public static void main(String[] args) {
-		
-		//Creating a contact list of size 10
-		Person[] contactList = new Person[10];
-		Person person = new Person();
-		
-		contactList[0] = person;
-		
-		 
-	
-		
-
+            ContactList contactList = new ContactList();
+            contactList.addContact("fake");
+            System.out.println(contactList.getContacts("fake"));
+            contactList.openFile();
+            contactList.saveFile();
+            String output = contactList.printList();
+            System.out.println(output);
+            
+            Person testPerson; 
+            testPerson = new Person();
+            testPerson.setFirstName ("called");
+            testPerson.setLastName ("called");
+            testPerson.setAddress ("called");
+            testPerson.setPhoneNumber ("called");
+            testPerson.setEmail ("called");
+            testPerson.setNotes ("called");
+            System.out.println(testPerson.getPerson());
 	}
-
 }
+
+/* Copy of Console
+
+run:
+addContact was called: fake
+getContacts was called: fake
+openfile was called
+savefile was called
+printList was called
+FirstName Called!
+LastName Called!
+Address Called!
+Phone Called!
+Email Called!
+getPerson called
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+
+*/
