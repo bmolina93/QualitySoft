@@ -1,0 +1,53 @@
+/*
+ * Written: November 19, 2013
+ * by Ari, Michael, Bryan
+ * Course: CS 001A
+ * Team 03
+ * 
+ * File: ContactList.java
+ * 
+ * One object of this class represents a contact list containing Person objects
+ * Methods: methods provided to print to console, save to disk, open from disk,
+ *          add new contact, retrieve contact information
+ */
+import java.util.ArrayList;
+
+public class ContactList {
+    
+    private ArrayList<Person> contactlist = new ArrayList();
+    
+    public ContactList(){
+    
+    }
+      
+    /* 
+     * Prints list to console
+     */
+    public String printList(){
+        return("printList was called");
+    }
+    /* 
+     * adds a new Person object 
+     */
+    public void addContact(String lastname){
+        System.out.println("addContact was called: " + lastname);
+    }
+    /* 
+     * Saves contactList to disk
+     */
+    public void saveFile(){
+        System.out.println("savefile was called");
+    }
+    /* 
+     * opens contactList from disk
+     */
+    public void openFile(){
+        System.out.println("openfile was called");
+    }
+    /* 
+     * returns information for all contacts matching lastname
+     */
+    public String getContacts(String lastname){
+        return("getContacts was called: " + lastname);
+    }
+}
